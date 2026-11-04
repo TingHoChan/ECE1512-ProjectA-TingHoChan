@@ -1,0 +1,30 @@
+# ECE1512 Project A: CAMELYON16 slide classification with pre-extracted features
+# Download the pre-extracted features from https://zenodo.org/records/23130543
+# Paths are relative to the project directory; edit data_dir if needed.
+dataset: CAMELYON16
+data_dir: ./feature/C16/patch_feats_pretrain_medical_ssl.h5
+
+# The notebook verifies D_feat against the HDF5 file before model creation.
+# 384 is typical for ViT-S/16/DINO-style features; change it if necessary.
+D_feat: 384
+D_inner: 256
+D_attn: 128
+n_res: 0
+n_class: 2
+
+B: 1
+n_worker: 0
+pin_memory: true
+n_shot: 0           # <=0 uses the full training set
+val_fraction: 0.10
+seed: 42
+
+lr: 0.0001
+wd: 0.00001
+train_epoch: 30
+warmup_epoch: 3
+droprate: 0.0
+
+# Optional metadata directory used by CAMELYON17/BRACS loaders.
+dataset_csv_dir: ./dataset_csv
+

@@ -1,0 +1,31 @@
+# ECE1512 Project A: BRACS slide classification with pre-extracted features
+# Download the pre-extracted features from https://zenodo.org/records/23130543
+# Paths are relative to the project directory; edit data_dir if needed.
+dataset: BRACS
+data_dir: ./feature/BRACS/patch_feats_pretrain_medical_ssl.h5
+dataset_csv_dir: ./dataset_csv
+# bracs.csv must contain slide_id and split_info (train, val, or test).
+# To use a different CSV filename/location, set bracs_csv explicitly.
+
+# The notebook checks D_feat against the HDF5 feature dimension before model creation.
+D_feat: 384
+D_inner: 256
+D_attn: 128
+n_res: 0
+# The supplied HDF5 has labels 0..6. Use 7 for the original seven classes.
+# Set 3 to group {0,1,2}/{3,4}/{5,6}, or 2 to group {0,1,2}/{3,4,5,6}.
+n_class: 7
+
+B: 1
+n_worker: 0
+pin_memory: true
+n_shot: 0           # <=0 uses the full training set; >0 selects slides per class
+# BRACS uses the CSV train/val/test assignments; val_fraction is not used.
+seed: 42
+
+lr: 0.0001
+wd: 0.00001
+train_epoch: 30
+warmup_epoch: 3
+droprate: 0.0
+

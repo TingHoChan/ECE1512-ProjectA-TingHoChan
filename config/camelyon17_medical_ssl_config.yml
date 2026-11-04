@@ -1,0 +1,32 @@
+# ECE1512 Project A: CAMELYON17 slide classification with pre-extracted features
+# Download the pre-extracted features from https://zenodo.org/records/23130543
+# Paths are relative to the project directory; edit data_dir if needed.
+dataset: CAMELYON17
+data_dir: ./feature/C17/patch_feats_pretrain_medical_ssl.h5
+dataset_csv_dir: ./dataset_csv
+# camelyon17.csv must contain slide_id and center, matching the HDF5 slide IDs.
+# To use a different CSV filename/location, set camelyon17_csv explicitly.
+cam17_test_center_min: 3  # centers >=3 are test; centers <3 are train/validation
+
+# The notebook checks D_feat against the HDF5 feature dimension before model creation.
+D_feat: 384
+D_inner: 256
+D_attn: 128
+n_res: 0
+# The supplied HDF5 has labels 0..3, which the loader reads unchanged.
+# For a different HDF5 with binary labels 0..1, set n_class to 2.
+n_class: 4
+
+B: 1
+n_worker: 0
+pin_memory: true
+n_shot: 0           # <=0 uses the full training set; >0 selects slides per class
+val_fraction: 0.10  # fraction of the non-test slides reserved for validation
+seed: 42
+
+lr: 0.0001
+wd: 0.00001
+train_epoch: 30
+warmup_epoch: 3
+droprate: 0.0
+

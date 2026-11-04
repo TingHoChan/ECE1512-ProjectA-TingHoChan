@@ -1,0 +1,79 @@
+{
+  "dataset": "C17",
+  "method": "focal",
+  "seed": 42,
+  "best_epoch": 22,
+  "validation_score": 1.5824536540695078,
+  "test": {
+    "auc": 0.8114629554989896,
+    "acc": 75.0,
+    "f1": 0.49680965307130437,
+    "loss": 0.4243906777678028,
+    "ce_loss": 0.6971932485699653
+  },
+  "config": {
+    "dataset": "CAMELYON17",
+    "data_dir": "D:\\ECE1512H Digital Image Processing and Applications\\Project A\\Project_A_Starter_Code\\feature\\C17\\patch_feats_pretrain_medical_ssl.h5",
+    "dataset_csv_dir": "D:\\ECE1512H Digital Image Processing and Applications\\Project A\\Project_A_Starter_Code\\dataset_csv",
+    "cam17_test_center_min": 3,
+    "D_feat": 384,
+    "D_inner": 256,
+    "D_attn": 128,
+    "n_res": 0,
+    "n_class": 4,
+    "B": 1,
+    "n_worker": 0,
+    "pin_memory": true,
+    "n_shot": 0,
+    "val_fraction": 0.1,
+    "seed": 42,
+    "lr": 0.0001,
+    "wd": 1e-05,
+    "train_epoch": 30,
+    "warmup_epoch": 3,
+    "droprate": 0.0,
+    "gpu_feature_cache": true
+  },
+  "split_sha256": "2aeca486c002715fee331659080a6b2f0168554883cb6e77f50d2d3809dc13b2",
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "h5py": "3.16.0"
+  },
+  "source_sha256": {
+    "models.py": "104c2f70f3cb156ffde6b75b911ec1a335f99f8de5bcf55924a9f936ec24dd4a",
+    "training.py": "ac942699665d9628472ae0594800f1dff6bd1ba9f31f7f764c91b70b04f11781",
+    "utils.py": "400435a98b71cd52d3295af33bcca73bbcf71b2cab92adc9450f6ad5c74a2937",
+    "dataloader.py": "76d58b8fafcb5d8acd7a47e15f5feebec03c5d36d64966129e73b33960b3c835",
+    "run_experiments.py": "bebce89c0aea70925d9f3d4c13d68313a0c90e3adba37f119fecc9990e36f60d"
+  },
+  "parameters": 165509,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "python": "3.12.14",
+  "total_seconds": 36.61183959999471,
+  "setup_seconds": 5.359359699999914,
+  "feature_cache": [
+    {
+      "split": "train",
+      "cached_slides": 269,
+      "total_slides": 269,
+      "cache_bytes": 2119524096,
+      "max_bytes": 4009911910,
+      "device": "cuda"
+    },
+    {
+      "split": "val",
+      "cached_slides": 30,
+      "total_slides": 30,
+      "cache_bytes": 248951040,
+      "max_bytes": 1890387814,
+      "device": "cuda"
+    }
+  ],
+  "objective": "focal_gamma2_no_alpha",
+  "status": "complete",
+  "training_policy": "constant_lr_30epochs_no_subsampling"
+}

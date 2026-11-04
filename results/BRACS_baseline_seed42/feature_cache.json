@@ -1,0 +1,18 @@
+[
+  {
+    "split": "train",
+    "cached_slides": 389,
+    "total_slides": 389,
+    "cache_bytes": 3111082752,
+    "max_bytes": 4009911910,
+    "device": "cuda"
+  },
+  {
+    "split": "val",
+    "cached_slides": 62,
+    "total_slides": 62,
+    "cache_bytes": 439395072,
+    "max_bytes": 898829158,
+    "device": "cuda"
+  }
+]

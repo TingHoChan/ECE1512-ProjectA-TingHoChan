@@ -1,0 +1,81 @@
+{
+  "assets": [
+    {
+      "asset": "feature/C16/patch_feats_pretrain_medical_ssl.h5",
+      "bytes": 7222943888,
+      "sha256": "f22c22c4dc7c5314a2b4b16b8322f8c9cab8e8330d0942a5ab0cbf4f7b27fd6f",
+      "verified": true
+    },
+    {
+      "asset": "feature/C17/patch_feats_pretrain_medical_ssl.h5",
+      "bytes": 4076878344,
+      "sha256": "6c9dd83f6af398773a45da57e4f1f69d6269ecfa74821d8d4f72799f92b86e42",
+      "verified": true
+    },
+    {
+      "asset": "feature/BRACS/patch_feats_pretrain_medical_ssl.h5",
+      "bytes": 4235044448,
+      "sha256": "72a787e628f30a8d440fb698bd2de05edfe82e082c2bb6865c5aea4dd8e8e5bc",
+      "verified": true
+    },
+    {
+      "asset": "slide/test_067.tif",
+      "bytes": 2415492970,
+      "sha256": "233c10f02f5414c30f69736e432db4c79698fe61e58aa114a27896393f81c812",
+      "verified": true
+    },
+    {
+      "asset": "slide/test_068.tif",
+      "bytes": 2530427892,
+      "sha256": "52257fd5922e59953793a5ac6f1adb036328a248f364130cc423f36930458c02",
+      "verified": true
+    },
+    {
+      "asset": "slide/test_068.xml",
+      "bytes": 76525,
+      "sha256": "89c71c3777f0b12e75da23c146a6c88de9c053786582cb8d4b13d4499fea9a8f",
+      "verified": true
+    }
+  ],
+  "cleanup_targets": [
+    "D:\\ECE1512H Digital Image Processing and Applications\\Project A\\Project_A_Starter_Code\\feature\\C16\\patch_feats_pretrain_medical_ssl.h5.parts",
+    "D:\\ECE1512H Digital Image Processing and Applications\\Project A\\Project_A_Starter_Code\\feature\\C17\\patch_feats_pretrain_medical_ssl.h5.parts",
+    "D:\\ECE1512H Digital Image Processing and Applications\\Project A\\Project_A_Starter_Code\\feature\\BRACS\\patch_feats_pretrain_medical_ssl.h5.parts",
+    "D:\\ECE1512H Digital Image Processing and Applications\\Project A\\Project_A_Starter_Code\\slide\\test_067.tif.parts",
+    "D:\\ECE1512H Digital Image Processing and Applications\\Project A\\Project_A_Starter_Code\\slide\\test_067.tif.parts16_backup",
+    "D:\\ECE1512H Digital Image Processing and Applications\\Project A\\Project_A_Starter_Code\\slide\\test_068.tif.parts",
+    "D:\\ECE1512H Digital Image Processing and Applications\\Project A\\Project_A_Starter_Code\\slide\\test_068.tif.parts16_backup"
+  ],
+  "status": "all_assets_verified_generated_chunks_cleaned",
+  "removed_generated_directories": [
+    {
+      "path": "D:\\ECE1512H Digital Image Processing and Applications\\Project A\\Project_A_Starter_Code\\feature\\C16\\patch_feats_pretrain_medical_ssl.h5.parts",
+      "generated_bytes_removed": 7222944197.0
+    },
+    {
+      "path": "D:\\ECE1512H Digital Image Processing and Applications\\Project A\\Project_A_Starter_Code\\feature\\C17\\patch_feats_pretrain_medical_ssl.h5.parts",
+      "generated_bytes_removed": 4076878617.0
+    },
+    {
+      "path": "D:\\ECE1512H Digital Image Processing and Applications\\Project A\\Project_A_Starter_Code\\feature\\BRACS\\patch_feats_pretrain_medical_ssl.h5.parts",
+      "generated_bytes_removed": 4235044759.0
+    },
+    {
+      "path": "D:\\ECE1512H Digital Image Processing and Applications\\Project A\\Project_A_Starter_Code\\slide\\test_067.tif.parts",
+      "generated_bytes_removed": 2415493249.0
+    },
+    {
+      "path": "D:\\ECE1512H Digital Image Processing and Applications\\Project A\\Project_A_Starter_Code\\slide\\test_067.tif.parts16_backup",
+      "generated_bytes_removed": 46727448.0
+    },
+    {
+      "path": "D:\\ECE1512H Digital Image Processing and Applications\\Project A\\Project_A_Starter_Code\\slide\\test_068.tif.parts",
+      "generated_bytes_removed": 2530428171.0
+    },
+    {
+      "path": "D:\\ECE1512H Digital Image Processing and Applications\\Project A\\Project_A_Starter_Code\\slide\\test_068.tif.parts16_backup",
+      "generated_bytes_removed": 243466520.0
+    }
+  ],
+  "removed_generated_bytes": 20770982961.0
+}

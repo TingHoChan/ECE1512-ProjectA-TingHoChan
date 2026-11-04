@@ -1,0 +1,45 @@
+D:\ECE1512H Digital Image Processing and Applications\Project A\.venv\Lib\site-packages\nbformat\validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  _validate(nbdict, ref, version, version_minor, relax_add_props)
+D:\ECE1512H Digital Image Processing and Applications\Project A\.venv\Lib\site-packages\zmq\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.
+  self._get_loop()
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+Execute notebook cell 0
+Execute notebook cell 1
+Execute notebook cell 2
+Execute notebook cell 3
+Execute notebook cell 4
+Execute notebook cell 5
+Execute notebook cell 6
+Execute notebook cell 7
+Execute notebook cell 8
+Execute notebook cell 9
+Execute notebook cell 10
+Execute notebook cell 11
+Execute notebook cell 12
+Execute notebook cell 13
+Execute notebook cell 14
+Execute notebook cell 15
+Execute notebook cell 16
+Execute notebook cell 17
+Execute notebook cell 18
+Execute notebook cell 19
+Execute notebook cell 20
+Execute notebook cell 21
+Execute notebook cell 22
+Execute notebook cell 23
+Execute notebook cell 24
+Execute notebook cell 25
+Execute notebook cell 26
+Execute notebook cell 27
+Execute notebook cell 28
+Execute notebook cell 29
+Execute notebook cell 30
+Execute notebook cell 31
+Execute notebook cell 32
+Execute notebook cell 33
+Waiting for verified WSIs and six archived experiments
+Execute notebook cell 34
+Execute notebook cell 35
+Execute notebook cell 36
+Execute notebook cell 37
+FULL NOTEBOOK EXECUTION COMPLETE

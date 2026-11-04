@@ -1,0 +1,33 @@
+BRACS: GPU storage cache train: {'cached_slides': 389, 'total_slides': 389, 'cache_bytes': 3111082752, 'max_bytes': 4009911910, 'device': 'cuda'}
+BRACS: GPU storage cache val: {'cached_slides': 62, 'total_slides': 62, 'cache_bytes': 439395072, 'max_bytes': 898829158, 'device': 'cuda'}
+BRACS baseline 01/30 train=1.5974 val_AUC=0.6892 F1=0.1306 best=1 1.7s
+BRACS baseline 02/30 train=1.2372 val_AUC=0.7559 F1=0.2904 best=2 1.4s
+BRACS baseline 03/30 train=1.0375 val_AUC=0.7858 F1=0.3415 best=3 1.4s
+BRACS baseline 04/30 train=0.9385 val_AUC=0.8145 F1=0.3715 best=4 1.4s
+BRACS baseline 05/30 train=0.8657 val_AUC=0.8178 F1=0.3736 best=5 1.4s
+BRACS baseline 06/30 train=0.8052 val_AUC=0.8227 F1=0.4209 best=6 1.4s
+BRACS baseline 07/30 train=0.7702 val_AUC=0.8221 F1=0.3522 best=6 1.4s
+BRACS baseline 08/30 train=0.7177 val_AUC=0.8222 F1=0.3586 best=6 1.4s
+BRACS baseline 09/30 train=0.6924 val_AUC=0.8124 F1=0.3230 best=6 1.4s
+BRACS baseline 10/30 train=0.6465 val_AUC=0.8155 F1=0.3712 best=6 1.4s
+BRACS baseline 11/30 train=0.6192 val_AUC=0.8157 F1=0.3842 best=6 1.4s
+BRACS baseline 12/30 train=0.5813 val_AUC=0.8042 F1=0.3217 best=6 1.4s
+BRACS baseline 13/30 train=0.5397 val_AUC=0.8011 F1=0.3722 best=6 1.4s
+BRACS baseline 14/30 train=0.4766 val_AUC=0.8065 F1=0.2913 best=6 1.4s
+BRACS baseline 15/30 train=0.4935 val_AUC=0.8068 F1=0.3197 best=6 1.3s
+BRACS baseline 16/30 train=0.4153 val_AUC=0.8097 F1=0.3622 best=6 1.3s
+BRACS baseline 17/30 train=0.4134 val_AUC=0.8074 F1=0.2797 best=6 1.3s
+BRACS baseline 18/30 train=0.3682 val_AUC=0.7998 F1=0.3118 best=6 1.3s
+BRACS baseline 19/30 train=0.3496 val_AUC=0.8111 F1=0.2955 best=6 1.4s
+BRACS baseline 20/30 train=0.3412 val_AUC=0.7856 F1=0.3430 best=6 1.5s
+BRACS baseline 21/30 train=0.2940 val_AUC=0.7839 F1=0.2757 best=6 1.5s
+BRACS baseline 22/30 train=0.2704 val_AUC=0.7899 F1=0.3041 best=6 1.5s
+BRACS baseline 23/30 train=0.2611 val_AUC=0.7857 F1=0.3217 best=6 1.5s
+BRACS baseline 24/30 train=0.2349 val_AUC=0.7829 F1=0.3513 best=6 1.5s
+BRACS baseline 25/30 train=0.1956 val_AUC=0.7867 F1=0.3619 best=6 1.6s
+BRACS baseline 26/30 train=0.1737 val_AUC=0.7736 F1=0.3959 best=6 1.5s
+BRACS baseline 27/30 train=0.1622 val_AUC=0.7841 F1=0.3607 best=6 1.4s
+BRACS baseline 28/30 train=0.1392 val_AUC=0.7833 F1=0.3067 best=6 1.4s
+BRACS baseline 29/30 train=0.1760 val_AUC=0.7877 F1=0.2956 best=6 1.4s
+BRACS baseline 30/30 train=0.2501 val_AUC=0.7972 F1=0.4304 best=6 1.4s
+{"auc": 0.8042104302818588, "acc": 39.53488372093023, "f1": 0.34944535679829797, "loss": 1.4265434627399542, "ce_loss": 1.4265434627399542}

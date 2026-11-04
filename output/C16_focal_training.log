@@ -1,0 +1,33 @@
+C16: GPU storage cache train: {'cached_slides': 238, 'total_slides': 242, 'cache_bytes': 4007373312, 'max_bytes': 4009911910, 'device': 'cuda'}
+C16: GPU storage cache val: {'cached_slides': 1, 'total_slides': 27, 'cache_bytes': 634368, 'max_bytes': 2538598, 'device': 'cuda'}
+C16 focal 01/30 train=0.1765 val_AUC=0.9261 F1=0.8864 best=1 1.6s
+C16 focal 02/30 train=0.1291 val_AUC=0.9489 F1=0.9206 best=2 1.5s
+C16 focal 03/30 train=0.0893 val_AUC=0.9659 F1=0.8831 best=2 1.5s
+C16 focal 04/30 train=0.0567 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+C16 focal 05/30 train=0.0477 val_AUC=1.0000 F1=1.0000 best=4 1.4s
+C16 focal 06/30 train=0.0247 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+C16 focal 07/30 train=0.0143 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+C16 focal 08/30 train=0.0112 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+C16 focal 09/30 train=0.0050 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+C16 focal 10/30 train=0.0041 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+C16 focal 11/30 train=0.0010 val_AUC=1.0000 F1=1.0000 best=4 1.6s
+C16 focal 12/30 train=0.0007 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+C16 focal 13/30 train=0.0005 val_AUC=1.0000 F1=1.0000 best=4 1.4s
+C16 focal 14/30 train=0.0004 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+C16 focal 15/30 train=0.0003 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+C16 focal 16/30 train=0.0002 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+C16 focal 17/30 train=0.0002 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+C16 focal 18/30 train=0.0001 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+C16 focal 19/30 train=0.0001 val_AUC=1.0000 F1=1.0000 best=4 1.6s
+C16 focal 20/30 train=0.0001 val_AUC=1.0000 F1=1.0000 best=4 1.6s
+C16 focal 21/30 train=0.0001 val_AUC=1.0000 F1=1.0000 best=4 1.6s
+C16 focal 22/30 train=0.0001 val_AUC=1.0000 F1=1.0000 best=4 1.6s
+C16 focal 23/30 train=0.0000 val_AUC=1.0000 F1=1.0000 best=4 1.4s
+C16 focal 24/30 train=0.0000 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+C16 focal 25/30 train=0.0000 val_AUC=1.0000 F1=1.0000 best=4 1.4s
+C16 focal 26/30 train=0.0000 val_AUC=1.0000 F1=1.0000 best=4 1.4s
+C16 focal 27/30 train=0.0000 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+C16 focal 28/30 train=0.0000 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+C16 focal 29/30 train=0.0000 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+C16 focal 30/30 train=0.0000 val_AUC=1.0000 F1=1.0000 best=4 1.5s
+{"auc": 0.9535714285714285, "acc": 91.47286821705427, "f1": 0.9091374783889351, "loss": 0.06459150175302698, "ce_loss": 0.3474836722882681}

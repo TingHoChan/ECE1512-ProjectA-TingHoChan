@@ -1,0 +1,915 @@
+{
+  "status": "passed",
+  "generated_at_utc": "2026-11-01T15:54:58.182931+00:00",
+  "method": "Python standard library only; pairwise Mann-Whitney AUROC with half credit for ties; confusion-derived accuracy/macro F1; probability-derived CE/focal",
+  "scope": "Audits persisted predictions, split manifests, source hashes, and checkpoint selection histories. Does not rerun models or establish statistical significance.",
+  "runs": {
+    "C16_baseline_seed42": {
+      "status": "passed",
+      "checks": {
+        "test_acc_matches": true,
+        "test_auc_matches": true,
+        "test_f1_matches": true,
+        "test_ce_loss_matches": true,
+        "test_loss_matches": true,
+        "test_ids_unique": true,
+        "test_ids_match_manifest": true,
+        "test_size_matches_manifest": true,
+        "test_class_counts_match_manifest": true,
+        "split_slide_ids_disjoint": true,
+        "split_hash_matches_run": true,
+        "30_epochs_recorded": true,
+        "epochs_sequential": true,
+        "earliest_max_validation_epoch_matches": true,
+        "selection_score_matches": true,
+        "current_source_hashes_match_run": true
+      },
+      "recomputed_test": {
+        "acc": 88.37209302325581,
+        "auc": 0.9341836734693878,
+        "f1": 0.8667814113597245,
+        "ce_loss": 0.2804283622391696,
+        "loss": 0.2804283622391696
+      },
+      "recorded_test": {
+        "auc": 0.9341836734693878,
+        "acc": 88.37209302325581,
+        "f1": 0.8667814113597245,
+        "loss": 0.28042836616523276,
+        "ce_loss": 0.28042836616523276
+      },
+      "absolute_metric_differences": {
+        "acc": 0.0,
+        "auc": 0.0,
+        "f1": 0.0,
+        "ce_loss": 3.92606314125743e-09,
+        "loss": 3.92606314125743e-09
+      },
+      "tolerances": {
+        "acc": 1e-09,
+        "auc": 1e-09,
+        "f1": 1e-09,
+        "ce_loss": 5e-05,
+        "loss": 5e-05
+      },
+      "confusion_matrix": [
+        [
+          80,
+          0
+        ],
+        [
+          15,
+          34
+        ]
+      ],
+      "per_class": [
+        {
+          "class_index": 0,
+          "support": 80,
+          "predicted_count": 95,
+          "recall": 1.0,
+          "f1": 0.9142857142857143,
+          "auc": 0.9341836734693878
+        },
+        {
+          "class_index": 1,
+          "support": 49,
+          "predicted_count": 34,
+          "recall": 0.6938775510204082,
+          "f1": 0.8192771084337349,
+          "auc": 0.9341836734693878
+        }
+      ],
+      "csv_target_probability_underflows": 0,
+      "earliest_best_epoch_recomputed": 3,
+      "test_n": 129,
+      "split_sha256": "7dd7688dbdff86ff0adb53d1633a39defcd86ad075d54d18e556974567b937d0",
+      "patient_overlap_train_val_n": null,
+      "patient_overlap_train_test_n": null,
+      "sources": [
+        "results\\C16_baseline_seed42\\metrics.json",
+        "results\\C16_baseline_seed42\\history.csv",
+        "results\\C16_baseline_seed42\\test_predictions.csv",
+        "results\\C16_baseline_seed42\\splits.json"
+      ]
+    },
+    "C16_focal_seed42": {
+      "status": "passed",
+      "checks": {
+        "test_acc_matches": true,
+        "test_auc_matches": true,
+        "test_f1_matches": true,
+        "test_ce_loss_matches": true,
+        "test_loss_matches": true,
+        "test_ids_unique": true,
+        "test_ids_match_manifest": true,
+        "test_size_matches_manifest": true,
+        "test_class_counts_match_manifest": true,
+        "split_slide_ids_disjoint": true,
+        "split_hash_matches_run": true,
+        "30_epochs_recorded": true,
+        "epochs_sequential": true,
+        "earliest_max_validation_epoch_matches": true,
+        "selection_score_matches": true,
+        "current_source_hashes_match_run": true
+      },
+      "recomputed_test": {
+        "acc": 91.47286821705427,
+        "auc": 0.9535714285714286,
+        "f1": 0.9091374783889351,
+        "ce_loss": 0.3474836701517584,
+        "loss": 0.06459149970043306
+      },
+      "recorded_test": {
+        "auc": 0.9535714285714285,
+        "acc": 91.47286821705427,
+        "f1": 0.9091374783889351,
+        "loss": 0.06459150175302698,
+        "ce_loss": 0.3474836722882681
+      },
+      "absolute_metric_differences": {
+        "acc": 0.0,
+        "auc": 1.1102230246251565e-16,
+        "f1": 0.0,
+        "ce_loss": 2.1365096913861237e-09,
+        "loss": 2.052593928159041e-09
+      },
+      "tolerances": {
+        "acc": 1e-09,
+        "auc": 1e-09,
+        "f1": 1e-09,
+        "ce_loss": 5e-05,
+        "loss": 5e-05
+      },
+      "confusion_matrix": [
+        [
+          75,
+          5
+        ],
+        [
+          6,
+          43
+        ]
+      ],
+      "per_class": [
+        {
+          "class_index": 0,
+          "support": 80,
+          "predicted_count": 81,
+          "recall": 0.9375,
+          "f1": 0.9316770186335404,
+          "auc": 0.9535714285714286
+        },
+        {
+          "class_index": 1,
+          "support": 49,
+          "predicted_count": 48,
+          "recall": 0.8775510204081632,
+          "f1": 0.8865979381443299,
+          "auc": 0.9535714285714286
+        }
+      ],
+      "csv_target_probability_underflows": 0,
+      "earliest_best_epoch_recomputed": 4,
+      "test_n": 129,
+      "split_sha256": "7dd7688dbdff86ff0adb53d1633a39defcd86ad075d54d18e556974567b937d0",
+      "patient_overlap_train_val_n": null,
+      "patient_overlap_train_test_n": null,
+      "sources": [
+        "results\\C16_focal_seed42\\metrics.json",
+        "results\\C16_focal_seed42\\history.csv",
+        "results\\C16_focal_seed42\\test_predictions.csv",
+        "results\\C16_focal_seed42\\splits.json"
+      ]
+    },
+    "C17_baseline_seed42": {
+      "status": "passed",
+      "checks": {
+        "test_acc_matches": true,
+        "test_auc_matches": true,
+        "test_f1_matches": true,
+        "test_ce_loss_matches": true,
+        "test_loss_matches": true,
+        "test_ids_unique": true,
+        "test_ids_match_manifest": true,
+        "test_size_matches_manifest": true,
+        "test_class_counts_match_manifest": true,
+        "split_slide_ids_disjoint": true,
+        "split_hash_matches_run": true,
+        "30_epochs_recorded": true,
+        "epochs_sequential": true,
+        "earliest_max_validation_epoch_matches": true,
+        "selection_score_matches": true,
+        "current_source_hashes_match_run": true
+      },
+      "recomputed_test": {
+        "acc": 76.0,
+        "auc": 0.8196246521202353,
+        "f1": 0.5501071603605259,
+        "ce_loss": 0.7938925752001379,
+        "loss": 0.7938925752001379
+      },
+      "recorded_test": {
+        "auc": 0.8196246521202353,
+        "acc": 76.0,
+        "f1": 0.5501071603605259,
+        "loss": 0.7938925744082371,
+        "ce_loss": 0.7938925744082371
+      },
+      "absolute_metric_differences": {
+        "acc": 0.0,
+        "auc": 0.0,
+        "f1": 0.0,
+        "ce_loss": 7.919007671830514e-10,
+        "loss": 7.919007671830514e-10
+      },
+      "tolerances": {
+        "acc": 1e-09,
+        "auc": 1e-09,
+        "f1": 1e-09,
+        "ce_loss": 5e-05,
+        "loss": 5e-05
+      },
+      "confusion_matrix": [
+        [
+          105,
+          9,
+          6,
+          1
+        ],
+        [
+          9,
+          3,
+          1,
+          3
+        ],
+        [
+          2,
+          1,
+          6,
+          9
+        ],
+        [
+          0,
+          0,
+          7,
+          38
+        ]
+      ],
+      "per_class": [
+        {
+          "class_index": 0,
+          "support": 121,
+          "predicted_count": 116,
+          "recall": 0.8677685950413223,
+          "f1": 0.8860759493670886,
+          "auc": 0.9142169683021236
+        },
+        {
+          "class_index": 1,
+          "support": 16,
+          "predicted_count": 13,
+          "recall": 0.1875,
+          "f1": 0.20689655172413793,
+          "auc": 0.6328125
+        },
+        {
+          "class_index": 2,
+          "support": 18,
+          "predicted_count": 20,
+          "recall": 0.3333333333333333,
+          "f1": 0.3157894736842105,
+          "auc": 0.7683150183150184
+        },
+        {
+          "class_index": 3,
+          "support": 45,
+          "predicted_count": 51,
+          "recall": 0.8444444444444444,
+          "f1": 0.7916666666666666,
+          "auc": 0.9631541218637992
+        }
+      ],
+      "csv_target_probability_underflows": 0,
+      "earliest_best_epoch_recomputed": 26,
+      "test_n": 200,
+      "split_sha256": "2aeca486c002715fee331659080a6b2f0168554883cb6e77f50d2d3809dc13b2",
+      "patient_overlap_train_val_n": 27,
+      "patient_overlap_train_test_n": 0,
+      "sources": [
+        "results\\C17_baseline_seed42\\metrics.json",
+        "results\\C17_baseline_seed42\\history.csv",
+        "results\\C17_baseline_seed42\\test_predictions.csv",
+        "results\\C17_baseline_seed42\\splits.json"
+      ]
+    },
+    "C17_focal_seed42": {
+      "status": "passed",
+      "checks": {
+        "test_acc_matches": true,
+        "test_auc_matches": true,
+        "test_f1_matches": true,
+        "test_ce_loss_matches": true,
+        "test_loss_matches": true,
+        "test_ids_unique": true,
+        "test_ids_match_manifest": true,
+        "test_size_matches_manifest": true,
+        "test_class_counts_match_manifest": true,
+        "split_slide_ids_disjoint": true,
+        "split_hash_matches_run": true,
+        "30_epochs_recorded": true,
+        "epochs_sequential": true,
+        "earliest_max_validation_epoch_matches": true,
+        "selection_score_matches": true,
+        "current_source_hashes_match_run": true
+      },
+      "recomputed_test": {
+        "acc": 75.0,
+        "auc": 0.8114629554989897,
+        "f1": 0.4968096530713043,
+        "ce_loss": 0.6971932419933679,
+        "loss": 0.42439067312594325
+      },
+      "recorded_test": {
+        "auc": 0.8114629554989896,
+        "acc": 75.0,
+        "f1": 0.49680965307130437,
+        "loss": 0.4243906777678028,
+        "ce_loss": 0.6971932485699653
+      },
+      "absolute_metric_differences": {
+        "acc": 0.0,
+        "auc": 1.1102230246251565e-16,
+        "f1": 5.551115123125783e-17,
+        "ce_loss": 6.57659748881656e-09,
+        "loss": 4.641859563392359e-09
+      },
+      "tolerances": {
+        "acc": 1e-09,
+        "auc": 1e-09,
+        "f1": 1e-09,
+        "ce_loss": 5e-05,
+        "loss": 5e-05
+      },
+      "confusion_matrix": [
+        [
+          105,
+          10,
+          5,
+          1
+        ],
+        [
+          11,
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          0,
+          4,
+          12
+        ],
+        [
+          0,
+          0,
+          5,
+          40
+        ]
+      ],
+      "per_class": [
+        {
+          "class_index": 0,
+          "support": 121,
+          "predicted_count": 118,
+          "recall": 0.8677685950413223,
+          "f1": 0.8786610878661087,
+          "auc": 0.9061617323987865
+        },
+        {
+          "class_index": 1,
+          "support": 16,
+          "predicted_count": 11,
+          "recall": 0.0625,
+          "f1": 0.07407407407407407,
+          "auc": 0.6127717391304348
+        },
+        {
+          "class_index": 2,
+          "support": 18,
+          "predicted_count": 15,
+          "recall": 0.2222222222222222,
+          "f1": 0.24242424242424243,
+          "auc": 0.768925518925519
+        },
+        {
+          "class_index": 3,
+          "support": 45,
+          "predicted_count": 56,
+          "recall": 0.8888888888888888,
+          "f1": 0.7920792079207921,
+          "auc": 0.9579928315412186
+        }
+      ],
+      "csv_target_probability_underflows": 0,
+      "earliest_best_epoch_recomputed": 22,
+      "test_n": 200,
+      "split_sha256": "2aeca486c002715fee331659080a6b2f0168554883cb6e77f50d2d3809dc13b2",
+      "patient_overlap_train_val_n": 27,
+      "patient_overlap_train_test_n": 0,
+      "sources": [
+        "results\\C17_focal_seed42\\metrics.json",
+        "results\\C17_focal_seed42\\history.csv",
+        "results\\C17_focal_seed42\\test_predictions.csv",
+        "results\\C17_focal_seed42\\splits.json"
+      ]
+    },
+    "BRACS_baseline_seed42": {
+      "status": "passed",
+      "checks": {
+        "test_acc_matches": true,
+        "test_auc_matches": true,
+        "test_f1_matches": true,
+        "test_ce_loss_matches": true,
+        "test_loss_matches": true,
+        "test_ids_unique": true,
+        "test_ids_match_manifest": true,
+        "test_size_matches_manifest": true,
+        "test_class_counts_match_manifest": true,
+        "split_slide_ids_disjoint": true,
+        "split_hash_matches_run": true,
+        "30_epochs_recorded": true,
+        "epochs_sequential": true,
+        "earliest_max_validation_epoch_matches": true,
+        "selection_score_matches": true,
+        "current_source_hashes_match_run": true
+      },
+      "recomputed_test": {
+        "acc": 39.53488372093023,
+        "auc": 0.8042104302818588,
+        "f1": 0.34944535679829797,
+        "ce_loss": 1.4265434536779582,
+        "loss": 1.4265434536779582
+      },
+      "recorded_test": {
+        "auc": 0.8042104302818588,
+        "acc": 39.53488372093023,
+        "f1": 0.34944535679829797,
+        "loss": 1.4265434627399542,
+        "ce_loss": 1.4265434627399542
+      },
+      "absolute_metric_differences": {
+        "acc": 0.0,
+        "auc": 0.0,
+        "f1": 0.0,
+        "ce_loss": 9.061996042447618e-09,
+        "loss": 9.061996042447618e-09
+      },
+      "tolerances": {
+        "acc": 1e-09,
+        "auc": 1e-09,
+        "f1": 1e-09,
+        "ce_loss": 5e-05,
+        "loss": 5e-05
+      },
+      "confusion_matrix": [
+        [
+          1,
+          2,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          5,
+          7,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2,
+          0,
+          1,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          3,
+          2,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          4,
+          0,
+          2,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          7,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          15
+        ]
+      ],
+      "per_class": [
+        {
+          "class_index": 0,
+          "support": 6,
+          "predicted_count": 3,
+          "recall": 0.16666666666666666,
+          "f1": 0.2222222222222222,
+          "auc": 0.8333333333333334
+        },
+        {
+          "class_index": 1,
+          "support": 16,
+          "predicted_count": 14,
+          "recall": 0.3125,
+          "f1": 0.3333333333333333,
+          "auc": 0.8125
+        },
+        {
+          "class_index": 2,
+          "support": 9,
+          "predicted_count": 23,
+          "recall": 0.2222222222222222,
+          "f1": 0.125,
+          "auc": 0.6810966810966811
+        },
+        {
+          "class_index": 3,
+          "support": 11,
+          "predicted_count": 2,
+          "recall": 0.18181818181818182,
+          "f1": 0.3076923076923077,
+          "auc": 0.7163636363636363
+        },
+        {
+          "class_index": 4,
+          "support": 12,
+          "predicted_count": 5,
+          "recall": 0.16666666666666666,
+          "f1": 0.23529411764705882,
+          "auc": 0.7792792792792793
+        },
+        {
+          "class_index": 5,
+          "support": 12,
+          "predicted_count": 22,
+          "recall": 0.5833333333333334,
+          "f1": 0.4117647058823529,
+          "auc": 0.8243243243243243
+        },
+        {
+          "class_index": 6,
+          "support": 20,
+          "predicted_count": 17,
+          "recall": 0.75,
+          "f1": 0.8108108108108109,
+          "auc": 0.9825757575757575
+        }
+      ],
+      "csv_target_probability_underflows": 0,
+      "earliest_best_epoch_recomputed": 6,
+      "test_n": 86,
+      "split_sha256": "0cddde72e0279461c4e9eeed80c5921008c7168294b92f7f58fbed9d7205c9df",
+      "patient_overlap_train_val_n": null,
+      "patient_overlap_train_test_n": null,
+      "sources": [
+        "results\\BRACS_baseline_seed42\\metrics.json",
+        "results\\BRACS_baseline_seed42\\history.csv",
+        "results\\BRACS_baseline_seed42\\test_predictions.csv",
+        "results\\BRACS_baseline_seed42\\splits.json"
+      ]
+    },
+    "BRACS_focal_seed42": {
+      "status": "passed",
+      "checks": {
+        "test_acc_matches": true,
+        "test_auc_matches": true,
+        "test_f1_matches": true,
+        "test_ce_loss_matches": true,
+        "test_loss_matches": true,
+        "test_ids_unique": true,
+        "test_ids_match_manifest": true,
+        "test_size_matches_manifest": true,
+        "test_class_counts_match_manifest": true,
+        "split_slide_ids_disjoint": true,
+        "split_hash_matches_run": true,
+        "30_epochs_recorded": true,
+        "epochs_sequential": true,
+        "earliest_max_validation_epoch_matches": true,
+        "selection_score_matches": true,
+        "current_source_hashes_match_run": true
+      },
+      "recomputed_test": {
+        "acc": 40.69767441860465,
+        "auc": 0.8113554184982756,
+        "f1": 0.3673780077141422,
+        "ce_loss": 1.3640607529068258,
+        "loss": 0.8999428233979657
+      },
+      "recorded_test": {
+        "auc": 0.8113554184982756,
+        "acc": 40.69767441860465,
+        "f1": 0.36737800771414214,
+        "loss": 0.8999428238626552,
+        "ce_loss": 1.3640607630963935
+      },
+      "absolute_metric_differences": {
+        "acc": 0.0,
+        "auc": 0.0,
+        "f1": 5.551115123125783e-17,
+        "ce_loss": 1.0189567634100172e-08,
+        "loss": 4.6468950909428486e-10
+      },
+      "tolerances": {
+        "acc": 1e-09,
+        "auc": 1e-09,
+        "f1": 1e-09,
+        "ce_loss": 5e-05,
+        "loss": 5e-05
+      },
+      "confusion_matrix": [
+        [
+          2,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          4,
+          7,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2,
+          0,
+          1,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          3,
+          2,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          3,
+          1,
+          2,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          8,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          15
+        ]
+      ],
+      "per_class": [
+        {
+          "class_index": 0,
+          "support": 6,
+          "predicted_count": 5,
+          "recall": 0.3333333333333333,
+          "f1": 0.36363636363636365,
+          "auc": 0.84375
+        },
+        {
+          "class_index": 1,
+          "support": 16,
+          "predicted_count": 12,
+          "recall": 0.25,
+          "f1": 0.2857142857142857,
+          "auc": 0.8205357142857143
+        },
+        {
+          "class_index": 2,
+          "support": 9,
+          "predicted_count": 21,
+          "recall": 0.2222222222222222,
+          "f1": 0.13333333333333333,
+          "auc": 0.6984126984126984
+        },
+        {
+          "class_index": 3,
+          "support": 11,
+          "predicted_count": 3,
+          "recall": 0.18181818181818182,
+          "f1": 0.2857142857142857,
+          "auc": 0.7151515151515152
+        },
+        {
+          "class_index": 4,
+          "support": 12,
+          "predicted_count": 5,
+          "recall": 0.16666666666666666,
+          "f1": 0.23529411764705882,
+          "auc": 0.7961711711711712
+        },
+        {
+          "class_index": 5,
+          "support": 12,
+          "predicted_count": 23,
+          "recall": 0.6666666666666666,
+          "f1": 0.45714285714285713,
+          "auc": 0.8153153153153153
+        },
+        {
+          "class_index": 6,
+          "support": 20,
+          "predicted_count": 17,
+          "recall": 0.75,
+          "f1": 0.8108108108108109,
+          "auc": 0.9901515151515151
+        }
+      ],
+      "csv_target_probability_underflows": 0,
+      "earliest_best_epoch_recomputed": 6,
+      "test_n": 86,
+      "split_sha256": "0cddde72e0279461c4e9eeed80c5921008c7168294b92f7f58fbed9d7205c9df",
+      "patient_overlap_train_val_n": null,
+      "patient_overlap_train_test_n": null,
+      "sources": [
+        "results\\BRACS_focal_seed42\\metrics.json",
+        "results\\BRACS_focal_seed42\\history.csv",
+        "results\\BRACS_focal_seed42\\test_predictions.csv",
+        "results\\BRACS_focal_seed42\\splits.json"
+      ]
+    }
+  },
+  "paired_comparisons": {
+    "C16": {
+      "status": "passed",
+      "checks": {
+        "same_split_hash": true,
+        "same_test_slide_ids": true,
+        "same_config": true,
+        "same_trainable_parameter_count": true,
+        "same_seed": true,
+        "same_test_labels": true,
+        "accuracy_delta_equals_net_corrected": true
+      },
+      "focal_minus_baseline": {
+        "acc": 3.100775193798455,
+        "auc": 0.019387755102040716,
+        "f1": 0.042356067029210576,
+        "ce_loss": 0.06705530612303534
+      },
+      "corrected_count": 9,
+      "lost_count": 5,
+      "corrected_slide_ids": [
+        "test_008",
+        "test_030",
+        "test_033",
+        "test_038",
+        "test_048",
+        "test_079",
+        "test_084",
+        "test_097",
+        "test_099"
+      ],
+      "lost_slide_ids": [
+        "test_034",
+        "test_043",
+        "test_053",
+        "test_083",
+        "test_085"
+      ]
+    },
+    "C17": {
+      "status": "passed",
+      "checks": {
+        "same_split_hash": true,
+        "same_test_slide_ids": true,
+        "same_config": true,
+        "same_trainable_parameter_count": true,
+        "same_seed": true,
+        "same_test_labels": true,
+        "accuracy_delta_equals_net_corrected": true
+      },
+      "focal_minus_baseline": {
+        "acc": -1.0,
+        "auc": -0.008161696621245662,
+        "f1": -0.0532975072892215,
+        "ce_loss": -0.09669932583827179
+      },
+      "corrected_count": 13,
+      "lost_count": 15,
+      "corrected_slide_ids": [
+        "patient_060_node_2",
+        "patient_063_node_2",
+        "patient_065_node_1",
+        "patient_068_node_0",
+        "patient_069_node_0",
+        "patient_070_node_0",
+        "patient_077_node_0",
+        "patient_078_node_2",
+        "patient_083_node_3",
+        "patient_089_node_3",
+        "patient_090_node_0",
+        "patient_093_node_3",
+        "patient_095_node_4"
+      ],
+      "lost_slide_ids": [
+        "patient_062_node_4",
+        "patient_066_node_2",
+        "patient_068_node_1",
+        "patient_071_node_2",
+        "patient_073_node_2",
+        "patient_075_node_0",
+        "patient_075_node_1",
+        "patient_075_node_2",
+        "patient_076_node_2",
+        "patient_079_node_1",
+        "patient_085_node_2",
+        "patient_086_node_4",
+        "patient_087_node_3",
+        "patient_088_node_1",
+        "patient_099_node_1"
+      ]
+    },
+    "BRACS": {
+      "status": "passed",
+      "checks": {
+        "same_split_hash": true,
+        "same_test_slide_ids": true,
+        "same_config": true,
+        "same_trainable_parameter_count": true,
+        "same_seed": true,
+        "same_test_labels": true,
+        "accuracy_delta_equals_net_corrected": true
+      },
+      "focal_minus_baseline": {
+        "acc": 1.1627906976744171,
+        "auc": 0.007144988216416848,
+        "f1": 0.017932650915844173,
+        "ce_loss": -0.06248269964356079
+      },
+      "corrected_count": 2,
+      "lost_count": 1,
+      "corrected_slide_ids": [
+        "BRACS_1283",
+        "BRACS_1601"
+      ],
+      "lost_slide_ids": [
+        "BRACS_1851"
+      ]
+    }
+  }
+}

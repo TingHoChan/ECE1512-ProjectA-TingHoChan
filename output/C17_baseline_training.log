@@ -1,0 +1,33 @@
+C17: GPU storage cache train: {'cached_slides': 269, 'total_slides': 269, 'cache_bytes': 2119524096, 'max_bytes': 4056049254, 'device': 'cuda'}
+C17: GPU storage cache val: {'cached_slides': 30, 'total_slides': 30, 'cache_bytes': 248951040, 'max_bytes': 1936525158, 'device': 'cuda'}
+C17 baseline 01/30 train=1.0613 val_AUC=0.6151 F1=0.2000 best=1 1.4s
+C17 baseline 02/30 train=0.9644 val_AUC=0.6289 F1=0.2000 best=2 1.0s
+C17 baseline 03/30 train=0.7157 val_AUC=0.8312 F1=0.4000 best=3 1.0s
+C17 baseline 04/30 train=0.5298 val_AUC=0.9018 F1=0.4273 best=4 1.0s
+C17 baseline 05/30 train=0.4457 val_AUC=0.8934 F1=0.5495 best=5 1.0s
+C17 baseline 06/30 train=0.3967 val_AUC=0.8597 F1=0.5495 best=5 1.0s
+C17 baseline 07/30 train=0.3657 val_AUC=0.8775 F1=0.6214 best=7 1.0s
+C17 baseline 08/30 train=0.3357 val_AUC=0.8650 F1=0.5629 best=7 1.0s
+C17 baseline 09/30 train=0.2958 val_AUC=0.8740 F1=0.6214 best=7 1.0s
+C17 baseline 10/30 train=0.2714 val_AUC=0.8498 F1=0.5629 best=7 1.0s
+C17 baseline 11/30 train=0.2378 val_AUC=0.8705 F1=0.7349 best=11 1.0s
+C17 baseline 12/30 train=0.2193 val_AUC=0.8484 F1=0.4981 best=11 1.0s
+C17 baseline 13/30 train=0.1970 val_AUC=0.8661 F1=0.7583 best=13 1.0s
+C17 baseline 14/30 train=0.1874 val_AUC=0.8221 F1=0.4556 best=13 1.0s
+C17 baseline 15/30 train=0.1782 val_AUC=0.8552 F1=0.5548 best=13 0.9s
+C17 baseline 16/30 train=0.1576 val_AUC=0.8373 F1=0.4981 best=13 0.9s
+C17 baseline 17/30 train=0.1619 val_AUC=0.8467 F1=0.5387 best=13 0.9s
+C17 baseline 18/30 train=0.1302 val_AUC=0.8730 F1=0.7349 best=13 1.0s
+C17 baseline 19/30 train=0.1364 val_AUC=0.8964 F1=0.6131 best=13 0.9s
+C17 baseline 20/30 train=0.1144 val_AUC=0.8432 F1=0.6750 best=13 0.9s
+C17 baseline 21/30 train=0.1056 val_AUC=0.8819 F1=0.5629 best=13 0.9s
+C17 baseline 22/30 train=0.0976 val_AUC=0.9030 F1=0.6993 best=13 0.9s
+C17 baseline 23/30 train=0.1201 val_AUC=0.8811 F1=0.5236 best=13 0.9s
+C17 baseline 24/30 train=0.0866 val_AUC=0.8885 F1=0.6993 best=13 0.9s
+C17 baseline 25/30 train=0.0560 val_AUC=0.8837 F1=0.6679 best=13 1.0s
+C17 baseline 26/30 train=0.0596 val_AUC=0.8954 F1=0.7856 best=26 1.0s
+C17 baseline 27/30 train=0.0399 val_AUC=0.8806 F1=0.5685 best=26 1.0s
+C17 baseline 28/30 train=0.0536 val_AUC=0.8434 F1=0.5025 best=26 1.0s
+C17 baseline 29/30 train=0.0444 val_AUC=0.8782 F1=0.6131 best=26 0.9s
+C17 baseline 30/30 train=0.0341 val_AUC=0.8795 F1=0.5685 best=26 1.0s
+{"auc": 0.8196246521202353, "acc": 76.0, "f1": 0.5501071603605259, "loss": 0.7938925744082371, "ce_loss": 0.7938925744082371}

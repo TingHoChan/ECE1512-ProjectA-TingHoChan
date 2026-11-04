@@ -1,0 +1,8 @@
+{
+  "completed": true,
+  "cells": 39,
+  "dataset": "C16",
+  "mode": "checkpoint_replay_with_full_training_branch_preserved",
+  "baseline_matches_cli_tolerance": 1e-06,
+  "executed_notebook": "ECE1512_ProjectA_Executed.ipynb"
+}

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": {
+    "baseline": {
+      "test_metrics_exact": true,
+      "selected_epoch_exact": true,
+      "test_predictions_csv_exact": true,
+      "all30epoch_learning_metrics_exact": true,
+      "previous_training_evaluation_seconds": 195.6797311999835,
+      "cached_training_evaluation_seconds": 33.72770350000064
+    },
+    "focal": {
+      "test_metrics_exact": true,
+      "selected_epoch_exact": true,
+      "test_predictions_csv_exact": true,
+      "all30epoch_learning_metrics_exact": true,
+      "previous_training_evaluation_seconds": 237.2400913001038,
+      "cached_training_evaluation_seconds": 36.61183959999471
+    }
+  }
+}

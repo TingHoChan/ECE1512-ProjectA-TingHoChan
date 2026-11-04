@@ -1,0 +1,21 @@
+SYNTHETIC ENGINEERING CHECK ONLY: artificial features, not pathology benchmark performance.
+C16 baseline 01/2 train=0.6709 val_AUC=1.0000 F1=1.0000 best=1 1.0s
+C16 baseline 02/2 train=0.5331 val_AUC=1.0000 F1=1.0000 best=1 1.0s
+{"auc": 1.0, "acc": 100.0, "f1": 1.0, "loss": 0.5959346562623977, "ce_loss": 0.5959346562623977}
+C16 focal 01/2 train=0.1626 val_AUC=1.0000 F1=1.0000 best=1 1.1s
+C16 focal 02/2 train=0.0974 val_AUC=1.0000 F1=1.0000 best=1 1.1s
+{"auc": 1.0, "acc": 100.0, "f1": 1.0, "loss": 0.12301362603902817, "ce_loss": 0.6013946503400802}
+C17 baseline 01/2 train=1.0293 val_AUC=1.0000 F1=0.4674 best=1 3.9s
+C17 baseline 02/2 train=0.5446 val_AUC=1.0000 F1=0.7381 best=2 3.8s
+{"auc": 1.0, "acc": 92.00000166893005, "f1": 0.7344961240310077, "loss": 0.4675606051087379, "ce_loss": 0.4675606051087379}
+C17 focal 01/2 train=0.4788 val_AUC=1.0000 F1=0.6582 best=1 3.8s
+C17 focal 02/2 train=0.1863 val_AUC=1.0000 F1=1.0000 best=2 3.7s
+{"auc": 1.0, "acc": 100.0, "f1": 1.0, "loss": 0.1500757783744484, "ce_loss": 0.5789199252426624}
+BRACS baseline 01/2 train=1.5210 val_AUC=1.0000 F1=0.6455 best=1 5.5s
+BRACS baseline 02/2 train=0.8164 val_AUC=1.0000 F1=1.0000 best=2 5.5s
+{"auc": 1.0, "acc": 100.0, "f1": 1.0, "loss": 0.7321543076703715, "ce_loss": 0.7321543076703715}
+BRACS focal 01/2 train=0.9620 val_AUC=1.0000 F1=0.8028 best=1 5.8s
+BRACS focal 02/2 train=0.3642 val_AUC=1.0000 F1=1.0000 best=2 6.2s
+{"auc": 1.0, "acc": 100.0, "f1": 1.0, "loss": 0.30959177632317986, "ce_loss": 0.8325767759666887}
+SYNTHETIC six-run pipeline check passed; no scientific result was generated.
+

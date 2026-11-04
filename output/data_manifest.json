@@ -1,0 +1,30 @@
+{
+  "source": "https://huggingface.co/datasets/LeonYe/ECE1512-WSI-Feature",
+  "revision": "6df7ef4b42b7ecd11633722a392a1efc6d80bcc7",
+  "files": {
+    "feature/C16/patch_feats_pretrain_medical_ssl.h5": {
+      "size": 7222943888,
+      "sha256": "f22c22c4dc7c5314a2b4b16b8322f8c9cab8e8330d0942a5ab0cbf4f7b27fd6f"
+    },
+    "feature/C17/patch_feats_pretrain_medical_ssl.h5": {
+      "size": 4076878344,
+      "sha256": "6c9dd83f6af398773a45da57e4f1f69d6269ecfa74821d8d4f72799f92b86e42"
+    },
+    "feature/BRACS/patch_feats_pretrain_medical_ssl.h5": {
+      "size": 4235044448,
+      "sha256": "72a787e628f30a8d440fb698bd2de05edfe82e082c2bb6865c5aea4dd8e8e5bc"
+    },
+    "slide/test_067.tif": {
+      "size": 2415492970,
+      "sha256": "233c10f02f5414c30f69736e432db4c79698fe61e58aa114a27896393f81c812"
+    },
+    "slide/test_068.tif": {
+      "size": 2530427892,
+      "sha256": "52257fd5922e59953793a5ac6f1adb036328a248f364130cc423f36930458c02"
+    },
+    "slide/test_068.xml": {
+      "size": 76525,
+      "git_blob_sha1": "f272af6521685c50a6703436f9991f47cd4b2bfc"
+    }
+  }
+}

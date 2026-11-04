@@ -1,0 +1,56 @@
+[
+  {
+    "relative_path": "feature/BRACS/patch_feats_pretrain_medical_ssl.h5",
+    "size": 4235044448,
+    "sha256": "72a787e628f30a8d440fb698bd2de05edfe82e082c2bb6865c5aea4dd8e8e5bc",
+    "verified": true,
+    "publisher_sha256": "72a787e628f30a8d440fb698bd2de05edfe82e082c2bb6865c5aea4dd8e8e5bc",
+    "publisher_git_blob_sha1": null,
+    "source": "https://huggingface.co/datasets/LeonYe/ECE1512-WSI-Feature/resolve/6df7ef4b42b7ecd11633722a392a1efc6d80bcc7/feature/BRACS/patch_feats_pretrain_medical_ssl.h5?download=true"
+  },
+  {
+    "relative_path": "feature/C16/patch_feats_pretrain_medical_ssl.h5",
+    "size": 7222943888,
+    "sha256": "f22c22c4dc7c5314a2b4b16b8322f8c9cab8e8330d0942a5ab0cbf4f7b27fd6f",
+    "verified": true,
+    "publisher_sha256": "f22c22c4dc7c5314a2b4b16b8322f8c9cab8e8330d0942a5ab0cbf4f7b27fd6f",
+    "publisher_git_blob_sha1": null,
+    "source": "https://huggingface.co/datasets/LeonYe/ECE1512-WSI-Feature/resolve/6df7ef4b42b7ecd11633722a392a1efc6d80bcc7/feature/C16/patch_feats_pretrain_medical_ssl.h5?download=true"
+  },
+  {
+    "relative_path": "feature/C17/patch_feats_pretrain_medical_ssl.h5",
+    "size": 4076878344,
+    "sha256": "6c9dd83f6af398773a45da57e4f1f69d6269ecfa74821d8d4f72799f92b86e42",
+    "verified": true,
+    "publisher_sha256": "6c9dd83f6af398773a45da57e4f1f69d6269ecfa74821d8d4f72799f92b86e42",
+    "publisher_git_blob_sha1": null,
+    "source": "https://huggingface.co/datasets/LeonYe/ECE1512-WSI-Feature/resolve/main/feature/C17/patch_feats_pretrain_medical_ssl.h5?download=true"
+  },
+  {
+    "relative_path": "slide/test_067.tif",
+    "size": 2415492970,
+    "sha256": "233c10f02f5414c30f69736e432db4c79698fe61e58aa114a27896393f81c812",
+    "verified": true,
+    "publisher_sha256": "233c10f02f5414c30f69736e432db4c79698fe61e58aa114a27896393f81c812",
+    "publisher_git_blob_sha1": null,
+    "source": "https://huggingface.co/datasets/LeonYe/ECE1512-WSI-Feature/resolve/6df7ef4b42b7ecd11633722a392a1efc6d80bcc7/slide/test_067.tif?download=true"
+  },
+  {
+    "relative_path": "slide/test_068.tif",
+    "size": 2530427892,
+    "sha256": "52257fd5922e59953793a5ac6f1adb036328a248f364130cc423f36930458c02",
+    "verified": true,
+    "publisher_sha256": "52257fd5922e59953793a5ac6f1adb036328a248f364130cc423f36930458c02",
+    "publisher_git_blob_sha1": null,
+    "source": "https://huggingface.co/datasets/LeonYe/ECE1512-WSI-Feature/resolve/6df7ef4b42b7ecd11633722a392a1efc6d80bcc7/slide/test_068.tif?download=true"
+  },
+  {
+    "relative_path": "slide/test_068.xml",
+    "size": 76525,
+    "sha256": "89c71c3777f0b12e75da23c146a6c88de9c053786582cb8d4b13d4499fea9a8f",
+    "verified": true,
+    "publisher_sha256": "89c71c3777f0b12e75da23c146a6c88de9c053786582cb8d4b13d4499fea9a8f",
+    "publisher_git_blob_sha1": "f272af6521685c50a6703436f9991f47cd4b2bfc",
+    "source": "https://huggingface.co/datasets/LeonYe/ECE1512-WSI-Feature/resolve/6df7ef4b42b7ecd11633722a392a1efc6d80bcc7/slide/test_068.xml?download=true"
+  }
+]

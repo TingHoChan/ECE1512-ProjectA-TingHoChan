@@ -1,0 +1,12 @@
+torch
+h5py
+pandas
+scikit-learn
+pyyaml
+numpy
+matplotlib
+openslide-python
+openslide-bin
+nbformat
+nbclient
+ipykernel
